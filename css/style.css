@@ -150,6 +150,11 @@ input[type="radio"].visually-hidden {
   position: relative;
 }
 
+.slide-2,
+.slide-3 {
+  display: none;
+}
+
 .slider-text {
   width: 534px;
   position: absolute;
@@ -213,6 +218,7 @@ input[type="radio"].visually-hidden {
 
 .slider-prev {
   display: inline-block;
+  vertical-align: middle;
   padding: 0;
   width: 30px;
   height: 0px;
@@ -226,6 +232,7 @@ input[type="radio"].visually-hidden {
 
 .slider-next {
   display: inline-block;
+  vertical-align: middle;
   padding: 0;
   width: 30px;
   height: 0px;
@@ -570,7 +577,7 @@ input[type="radio"].visually-hidden {
 }
 
 .about-us {
-  margin-bottom: 85px;
+  margin-bottom: 78px;
 }
 
 .about-us-title {
@@ -645,7 +652,7 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/background-contacts.png");
   background-position: 100%;
   background-size: 1440px 720px;
-  margin-bottom: 44px;
+  margin-bottom: 43px;
 }
 
 .contacts-block {
@@ -773,8 +780,12 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-info {
-  padding-top: 23px;
+  padding-top: 24px;
   padding-left: 1px;
+}
+
+.footer-logo {
+  margin-left: -5px;
 }
 
 .footer-nav {
